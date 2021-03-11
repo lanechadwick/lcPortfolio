@@ -1,0 +1,230 @@
+@font-face {
+	font-family: 'Cantarell';
+	src: url('../fonts/Cantarell-Regular-webfont.woff')format('woff'),
+			url('../fonts/Cantarell-Regular-webfont.ttf')format('truetype'),
+			url('../fonts/Cantarell-Regular-webfont.eot')format('embedded-opentype');
+}
+		 
+ 
+
+header nav ul li {
+	
+	font-size: 2em;   
+	padding: 0px 10px;
+	display: inline;
+  
+  }
+  
+  header nav ul li a {
+	color: rgb(0, 0, 0));
+	display: block;
+	width: 100%;
+  }
+  
+  header nav ul li a:hover {
+	color: white;
+	background-color: black;
+  }
+  
+  a#navicon {
+	display: none;
+  }
+
+/*end of nav styles*/
+.home {
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+    
+}
+
+.homepic img{
+	border-radius: 15px 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+
+}
+/*table styles*/
+table {
+  width: 100%;
+   background-image: linear-gradient(#FFFFFF, #F0F9E6);
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #DFA478;
+  border-style: solid;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+table td, th {
+  border-width: 2px;
+  border-color: #DFA478;
+  border-style: solid;
+  padding: 15px;
+}
+
+table thead {
+  background-color: #DFA478;
+}
+.worklist {
+	 background-image: linear-gradient(#FFFFFF, #F0F9E6);
+	 list-style: none;
+}
+
+
+/*schoolRow styles*/
+
+.schoolRow {
+	 box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 80px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  .column img { 
+        width: 100%; 
+        transition: 0.5s all ease-in-out; 
+    } 
+       
+    .column:hover img { 
+        transform: scale(1.5); 
+    }
+
+
+
+/*carousel styles*/
+.carousel-inner >.item a img {
+
+margin: auto;
+
+}
+
+.carousel-inner > .item img {
+	margin:auto;
+	border-radius: 15px 50px;
+}
+
+
+
+body {
+	text-align: center;
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(29,169,253,1) 50%, rgba(0,0,0,1) 100%);
+	font-family: "Times New Roman", Times, serif;
+}
+footer{
+font-size: .75em;
+text-align: center;
+}
+ article p {
+	 background-image: linear-gradient(#FFFFFF, #F0F9E6);
+	 font-family: "Arial Black", serif;
+	 display: block;
+	 border-radius: 15px 50px;
+	 
+
+}
+
+  /* ===================
+  Mobile styles: 0px to 480px
+     =================== */
+     @media only screen and (max-width: 480px){
+		.container li {
+		  display: block;
+		 margin-right: 12em;
+ 
+		}
+		a#navicon {
+		 display: block;
+	  }
+
+	  div.homepic img{
+		  display:none;
+		
+	  }
+	  
+	  header nav ul {
+		 display: none;
+		
+	  }
+	  
+	  header nav ul li {
+		 font-size: 1em;
+		 line-height: 1.3em;
+		 height: 1.3em;
+		 margin-left: 34%;
+		 
+	  }
+
+	 input {
+		  width:100%;
+		  height:auto;
+	 }
+
+	 textarea {
+		  width:100%;
+		  height:auto;
+	 }
+  
+	  a#navicon:hover+ul, header nav ul:hover {
+		 display: block;
+	  }
+	
+   }
+   div.container2 table{
+	 display: none;
+	 
+  }
+  
+ 
+  
+   
+ 
+   
+	   /* =========================
+   Mobile styles: 769px and greater
+	  =============================*/
+	  @media only screen and (min-width: 769px) {
+ 
+	 
+	section#main {
+	 float: left;
+	 width: 70%;
+  }
+
+  
+  section#right {
+	 float: left;
+	 width: 30%;
+  }
+  
+  header nav ul {
+	 display: -webkit-flex;
+	 display: flex;
+	 -webkit-flex-flow: row nowrap;
+	 flex-flow: row nowrap;
+	 -webkit-justify-content: center;
+	 justify-content: center;
+  }
+  
+  header nav ul li {
+	 -webkit-flex: 0 1 auto;
+	 flex: 0 1 auto;
+	 background-color: none;
+  }
+ }
+ 
+
